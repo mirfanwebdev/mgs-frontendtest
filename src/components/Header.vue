@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
     <div class="flex mx-4 lg:mx-[150px] justify-between items-center">
