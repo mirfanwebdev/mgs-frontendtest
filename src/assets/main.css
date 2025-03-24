@@ -2,5 +2,6 @@
 
 @theme {
   --font-sans: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-primary-red: #ed1c25;
   --color-secondary-blue: #061951;
 }
