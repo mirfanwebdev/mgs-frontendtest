@@ -13,7 +13,7 @@ onMounted(async () => {
 
 </script>
 <template>
-    <div class="mx-auto my-4 lg:py-[170px] flex flex-col gap-4 lg:gap-12 items-center">
+    <div class="mx-auto  p-4 lg:py-[170px] flex flex-col gap-4 lg:gap-12 items-center">
         <TitleSection title="Reason why mgs is the right place" subtitle="Why mgs ?" />
         <div class="flex flex-wrap gap-5">
             <template v-for="reason in reasons">
