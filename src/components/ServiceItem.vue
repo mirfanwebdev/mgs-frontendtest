@@ -14,8 +14,8 @@ defineProps({
 </script>
 
 <template>
-    <a :href="link">
-        <div class="p-[50px] outline outline-slate-200 rounded-lg">
+    <a class="flex-1" :href="link">
+        <div class="p-[50px] h-full outline outline-slate-200 rounded-lg">
             <slot name="icon"></slot>
             <div class="flex flex-col gap-5">
                 <h3 class="font-bold text-lg">{{ title }}</h3>
