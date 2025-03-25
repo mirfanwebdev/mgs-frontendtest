@@ -10,13 +10,7 @@ onMounted(async () => {
     const data = await getService();
     services.value = data;
 });
-// const services = [
-//     {
-//         "title": "Alih Daya Teknologi Informasi",
-//         "description": "Sewa tenaga ahli IT terbaik kami. Ceritakan kebutuhan bisnis Anda.",
-//         "link": "/itoutsourcing",
-//     }
-// ]
+
 </script>
 <template>
     <div class="flex flex-col items-center gap-8">

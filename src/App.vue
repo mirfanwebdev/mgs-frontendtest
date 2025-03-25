@@ -15,7 +15,7 @@ import Button from '@/components/Button.vue';
   </header>
 
   <main class="overflow-hidden">
-    <section class="bg-white/25">
+    <section class="bg-slate-100">
       <SectionHero />
     </section>
 

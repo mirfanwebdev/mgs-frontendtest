@@ -61,8 +61,8 @@ const aboutList = [
             <!-- career -->
             <Link href="#">Career</Link>
 
-            <div class="border px-1.5 py-1 rounded-md text-xs">
-                EN
+            <div class="border px-1.5 py-0.5 rounded-md text-xs inline-flex">
+                EN <img src="@/assets/icon/chevron-up.svg" alt="open">
             </div>
         </div>
     </div>
