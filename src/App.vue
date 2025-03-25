@@ -2,6 +2,7 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import SectionHero from '@/components/SectionHero.vue';
+import SectionService from '@/components/SectionService.vue';
 import SectionAbout from '@/components/SectionAbout.vue';
 import Button from '@/components/Button.vue';
 </script>
@@ -14,6 +15,10 @@ import Button from '@/components/Button.vue';
   <main class="overflow-hidden">
     <section class="bg-white/25">
       <SectionHero />
+    </section>
+
+    <section class="w-full py-[168px]">
+      <SectionService />
     </section>
 
     <section>

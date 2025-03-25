@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-    <a class="hover:text-primary-red" href="{{ href }}">
+    <a class="hover:text-primary-red" :href="href">
         <slot></slot>
     </a>
 </template>
