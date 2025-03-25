@@ -21,7 +21,7 @@ const contactlist = [
 </script>
 
 <template>
-    <div class="mx-4 lg:mx-[150px] py-[180px] flex flex-wrap gap-10">
+    <div class="mx-4 lg:mx-[150px] py-16 lg:py-[180px] flex flex-wrap gap-10">
         <!-- form caption -->
         <div class="flex flex-col gap-3 lg:w-[400px]">
             <h3 class="text-primary-red text-xl font-semibold">Contact Us</h3>

@@ -19,7 +19,7 @@ import Button from '@/components/Button.vue';
       <SectionHero />
     </section>
 
-    <section class="w-full py-[168px]">
+    <section class="w-full px-4 py-16 lg:py-[168px]">
       <SectionService />
     </section>
 
@@ -47,8 +47,9 @@ import Button from '@/components/Button.vue';
     <!-- join career section -->
     <section class="w-full">
       <div class="mx-4 lg:mx-[150px] my-4 lg:mt-[230px] lg:mb-[170px] bg-[url(@/assets/career.png)] bg-cover">
-        <div class="flex flex-col gap-5 items-center lg:px-10 lg:py-[105px]">
-          <h1 class="text-5xl font-bold text-white text-center">Build your Career while building inclusive technology
+        <div class="flex flex-col gap-5 items-center px-2 py-6 lg:px-10 lg:py-[105px]">
+          <h1 class="text-3xl lg:text-5xl font-bold text-white text-center">Build your Career while building inclusive
+            technology
             with us</h1>
           <Button>Join Now</Button>
         </div>
