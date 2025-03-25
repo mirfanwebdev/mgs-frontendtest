@@ -58,22 +58,23 @@ const linksData = [
 
 <template>
     <div class="mx-4 lg:mx-[150px] lg:pt-20 lg:pb-7">
-        <div class="flex justify-between items-center">
+        <div class="flex flex-wrap justify-between items-center">
             <!-- logo -->
             <div class="max-w-[330px]">
                 <div class="w-[130px] mb-5">
                     <img src="@/assets/logo-white.png" alt="logo">
                 </div>
-                <p>As an Information Technology Outsourcing (IT Outsourcing) company, we help your business to grow through qualified human resources.</p>
+                <p>As an Information Technology Outsourcing (IT Outsourcing) company, we help your business to grow
+                    through qualified human resources.</p>
             </div>
             <!-- links container -->
-            <div class="flex gap-[100px]">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-25">
                 <template v-for="item in linksData">
                     <FooterItem>
                         <template #title>{{ item.title }}</template>
                         <li v-for="link in item.links">
                             <Link :href="link.href">
-                                {{ link.name }}
+                            {{ link.name }}
                             </Link>
                         </li>
                     </FooterItem>
