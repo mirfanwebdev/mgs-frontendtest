@@ -5,6 +5,7 @@ import SectionHero from '@/components/SectionHero.vue';
 import SectionService from '@/components/SectionService.vue';
 import SectionAbout from '@/components/SectionAbout.vue';
 import SectionReason from '@/components/SectionReason.vue';
+import SectionForm from '@/components/SectionForm.vue';
 import Button from '@/components/Button.vue';
 </script>
 
@@ -52,6 +53,11 @@ import Button from '@/components/Button.vue';
           <Button>Join Now</Button>
         </div>
       </div>
+    </section>
+
+    <!-- form section -->
+    <section class="bg-primary-red/10">
+      <SectionForm />
     </section>
   </main>
 
