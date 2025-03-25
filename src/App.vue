@@ -23,7 +23,7 @@ import Button from '@/components/Button.vue';
     </section>
 
     <!-- reason section -->
-    <section class="bg-slate-200">
+    <section class="bg-slate-100">
       <SectionReason />
     </section>
 
