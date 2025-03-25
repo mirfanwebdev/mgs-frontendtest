@@ -23,7 +23,7 @@ const contactlist = [
 <template>
     <div class="mx-4 lg:mx-[150px] py-[180px] flex flex-wrap gap-10">
         <!-- form caption -->
-        <div class="flex flex-col gap-3">
+        <div class="flex flex-col gap-3 lg:w-[400px]">
             <h3 class="text-primary-red text-xl font-semibold">Contact Us</h3>
             <h2 class="font-semibold text-4xl">Haven’t gotten what you want yet ?</h2>
 
