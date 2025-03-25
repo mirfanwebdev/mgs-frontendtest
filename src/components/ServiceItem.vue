@@ -20,7 +20,7 @@ defineProps({
             <div class="flex flex-col gap-5">
                 <h3 class="font-bold text-lg">{{ title }}</h3>
                 <img class="w-[180px]" src="@/assets/devider.svg" alt="line-break">
-                <p class="text-sm">{{ description }}</p>
+                <p>{{ description }}</p>
             </div>
         </div>
     </a>

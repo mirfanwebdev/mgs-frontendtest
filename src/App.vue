@@ -4,6 +4,7 @@ import Footer from '@/components/Footer.vue'
 import SectionHero from '@/components/SectionHero.vue';
 import SectionService from '@/components/SectionService.vue';
 import SectionAbout from '@/components/SectionAbout.vue';
+import SectionReason from '@/components/SectionReason.vue';
 import Button from '@/components/Button.vue';
 </script>
 
@@ -21,10 +22,16 @@ import Button from '@/components/Button.vue';
       <SectionService />
     </section>
 
+    <!-- reason section -->
+    <section class="bg-slate-200">
+      <SectionReason />
+    </section>
+
     <section>
       <SectionAbout />
     </section>
 
+    <!-- purpose section -->
     <section class="w-full h-50 lg:h-100 bg-primary-red text-white relative">
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
         <h3 class="text-2xl">Our Purpose</h3>
@@ -36,6 +43,7 @@ import Button from '@/components/Button.vue';
       </div>
     </section>
 
+    <!-- join career section -->
     <section class="w-full">
       <div class="mx-4 lg:mx-[150px] my-4 lg:mt-[230px] lg:mb-[170px] bg-[url(@/assets/career.png)] bg-cover">
         <div class="flex flex-col gap-5 items-center lg:px-10 lg:py-[105px]">
@@ -46,6 +54,7 @@ import Button from '@/components/Button.vue';
       </div>
     </section>
   </main>
+
   <footer class="bg-secondary-blue text-white">
     <Footer />
   </footer>

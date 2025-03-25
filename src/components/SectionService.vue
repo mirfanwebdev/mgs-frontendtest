@@ -1,6 +1,6 @@
 <script setup>
 import ServiceItem from './ServiceItem.vue';
-
+import TitleSection from './TitleSection.vue';
 const services = [
     {
         "title": "Alih Daya Teknologi Informasi",
@@ -11,15 +11,12 @@ const services = [
 </script>
 <template>
     <div class="flex flex-col items-center gap-8">
-        <div class="text-center">
-            <h3 class="text-primary-red font-semibold text-xl mb-3">What we Have</h3>
-            <h2 class="font-semibold text-5xl">Our Services</h2>
-        </div>
+        <TitleSection title="Our Service" subtitle="What we Have" />
         <div class="flex flex-wrap gap-3">
             <template v-for="service in services">
                 <ServiceItem :title="service.title" :description="service.description" :link="service.link">
                     <template #icon>
-                        <slot name="icon"></slot>
+                        <img class="w-20" src="@/assets/icon/service.svg" alt="service-icon" />
                     </template>
                 </ServiceItem>
             </template>
