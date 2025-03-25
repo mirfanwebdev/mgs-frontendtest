@@ -22,7 +22,7 @@ async function handleSubmit() {
 </script>
 
 <template>
-    <div class="bg-white p-7 rounded-lg w-full lg:w-1/2">
+    <div class="bg-white p-7 rounded-lg flex-1">
         <form class="flex flex-col gap-5" @submit.prevent="handleSubmit">
             <InputCustom type="text" v-model="formData.name" placeholder="Name" />
             <InputCustom type="email" v-model="formData.email" placeholder="Email" />
