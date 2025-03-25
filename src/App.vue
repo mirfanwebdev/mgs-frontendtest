@@ -5,7 +5,7 @@ import SectionHero from '@/components/SectionHero.vue';
 import SectionService from '@/components/SectionService.vue';
 import SectionAbout from '@/components/SectionAbout.vue';
 import SectionReason from '@/components/SectionReason.vue';
-import Form from '@/components/Form.vue';
+import SectionForm from '@/components/SectionForm.vue';
 import Button from '@/components/Button.vue';
 </script>
 
@@ -57,24 +57,7 @@ import Button from '@/components/Button.vue';
 
     <!-- form section -->
     <section class="bg-primary-red/10">
-      <div class="mx-4 lg:mx-[150px] flex flex-wrap gap-10">
-        <!-- form caption -->
-        <div class="flex flex-col gap-3">
-          <h3 class="text-primary-red font-semibold">Contact Us</h3>
-          <h2 class="font-semibold text-3xl">Haven’t gotten what you want yet ?</h2>
-          <div class="flex flex-col gap-7.5">
-            <div>
-              <div>
-                <p>Call</p>
-                <p>0274 4299 535 <br>
-                  + 62 877 203 203 94
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <Form />
-      </div>
+      <SectionForm />
     </section>
   </main>
 

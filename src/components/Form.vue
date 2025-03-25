@@ -1,21 +1,29 @@
 <script setup>
 import { ref } from 'vue';
 import InputCustom from './InputCustom.vue';
+import { postContact } from '@/utils/api';
 
-const formData = ref({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-})
+const initialForm = {
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+}
+const formData = ref({ ...initialForm })
 
-// async function handleSubmit() {
-// }
+async function handleSubmit() {
+    if (!formData.value.name || !formData.value.email || !formData.value.phone || !formData.value.message) {
+        alert('Please fill all the fields');
+    } else {
+        await postContact(formData.value)
+        formData.value = { ...initialForm }
+    }
+};
 </script>
 
 <template>
     <div class="bg-white p-7 rounded-lg w-full lg:w-1/2">
-        <form class="flex flex-col gap-5" action="">
+        <form class="flex flex-col gap-5" @submit.prevent="handleSubmit">
             <InputCustom type="text" v-model="formData.name" placeholder="Name" />
             <InputCustom type="email" v-model="formData.email" placeholder="Email" />
             <InputCustom type="text" v-model="formData.phone" placeholder="Phone Number" />
